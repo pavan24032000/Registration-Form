@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <table style="margin: auto;">
+        <form action="">
+            <legend>
+                <h1 style="text-align: center;">Registration Form</h1>
+            </legend>
+            <tr>
+                <td>
+                    <label for="firstName">First Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="firstName" id="firstName" placeholder="Enter your First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lastName">Last Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="lastName" id="lastName" placeholder="Enter your Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth:</label>
+                </td>
+                <td>
+                    <input type="date" name="dob" id="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Phone Number:</label>
+                </td>
+                <td>
+                    <input type="number" name="phone" id="phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email ID:</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email ID">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="branch">Select your Branch:</label>
+                </td>
+                <td>
+                    <select name="branch" id="branch">
+                        <option value="CSE">CSE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="MECH">MECH</option>
+                        <option value="CIVIL">CIVIL</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="known">Technologies Known:</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="known" id="known">HTML5
+                    <input type="checkbox" name="known" id="known">CSS3
+                    <input type="checkbox" name="known" id="known">JavaScript
+                    <input type="checkbox" name="known" id="known">BootStrap
+                    <input type="checkbox" name="known" id="known">React.js
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address:</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="30" rows="5"
+                        placeholder="Enter your address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
